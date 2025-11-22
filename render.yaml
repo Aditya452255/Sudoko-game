@@ -1,0 +1,9 @@
+services:
+  - type: web_service
+    name: sudoku-web
+    env: docker
+    repo: https://github.com/Aditya452255/Sudoko-game.git
+    branch: main
+    dockerfilePath: web/Dockerfile
+    plan: free
+    autoDeploy: true
